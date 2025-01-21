@@ -1,0 +1,43 @@
+Linux wildcards:
+
+> Introduction to Linux wildcards
+A wildcard in Linux means it might be a symbol or 
+set of symbols representing other characters. 
+
+>It is generally used in substituting any string or a character(instead of ). 
+
+>Syntax of Wildcards used in Linux
+The basic set of wildcards in Linux includes below:
+* – This wildcard represents all the characters
+? – This wildcard represents a single character
+[] – This wildcard represents a range of characters.
+
+Types of Linux Wildcards:
+###Question Mark Wildcard ‘?’ – The wildcard ‘?’ means it will match 
+a single character. For example, S?? n will match anything that 
+will begin with S and end with n and has two characters between 
+them.
+>>Star Wildcard ‘*’ – The wildcard ‘*’ means it will match any 
+number of characters or a set of characters. 
+For example, S**n will match anything between S and n.
+ The number of characters between them do not count.
+
+**How do wildcards work in Linux?
+
+>Wildcards are mainly used to increase the efficiency and flexibility
+ of searches in Linux. 
+>They are generally used in shell commands to execute the commands 
+that are used to display the result. 
+>They are also mainly used in regular expressions to match the 
+patterns in the system.
+
+*	To list out all the files.
+A*	Any file that begins with the letter ‘A.’
+A*txt	Any file that begins with the letter ‘A’ and ends with a txt
+List??	Any file that begins with List followed by 2 characters.
+[abc]*	Any file that begins with either ‘a’ or ‘b’ or ‘c’ and 
+ending with any number of characters.
+[a-d]?	Any file that begins from a range of a-d and followed
+ by exactly 1 character.
+A??f	Any file that begins with the letter ‘A’ followed by 
+exactly two characters and ending with ‘f’.
